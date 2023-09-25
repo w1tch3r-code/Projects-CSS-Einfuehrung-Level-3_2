@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./../fonts/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto';
+}
+
+div.header_container, div.main_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background-color: #EEE;
+}
+
+div.header_container {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #aaa;
+}
+
+div.header_container nav {
+    padding: 20px 0;
+}
+
+div.header_container nav ul {
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+div.header_container nav ul li a {
+    text-decoration: none;
+    color: #659D89;
+    padding-right: 20px;
+}
+
+div.header_container nav ul li a:hover {
+    color: #3d5f53;
+}
+
+div.header_container h1  {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+div.header_container h1 span {
+    color: #659D89;
+}
+
+div.header_container ul.social {
+    padding-top: 20px;
+}
+
+div.header_container ul.social li {
+    list-style-type: none;
+    text-align: right;
+    line-height: 25px;
+}
+
+div.header_container ul.social li:nth-of-type(1) {
+    margin-right: 4px;
+}
+
+div.header_container ul.social li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+div.header_container ul.social li a:hover {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+div.header_container p  {
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #666;
+    padding-top: 50px;
+}
+
+div.main_container {
+    padding-top: 40px;
+    border-bottom: 1px solid #aaa;
+}
+
+div.main_container h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.main_container p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+div.main_container section.section_categories {
+    max-width: 1240px;
+    padding: 80px;
+}
+
+div.main_container section.section_categories img:hover,
+div.main_container section.section_resources article.right img:hover,
+div.main_container section.section_resources article.left img:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.main_container section.section_categories div {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.main_container section.section_categories div:nth-of-type(1) {
+    padding-bottom: 50px;
+}
+
+div.main_container section.section_resources {
+    max-width: 1240px;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div.main_container section.section_resources article.left { 
+    width: 756px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 80px;
+}
+
+div.main_container section.section_resources article.right { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 80px;
+}
+
+div.main_container section.section_resources article.right img,
+div.main_container section.section_resources article.left img { 
+    max-width: 756px;
+    display: block;
+}
+
+div.main_container section.section_resources article.left footer,
+div.main_container section.section_resources article.right footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 756px;
+}
+
+div.main_container section.section_resources article.left footer p,
+div.main_container section.section_resources article.right footer p { 
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+div.main_container section.section_resources article.left footer h3,
+div.main_container section.section_resources article.right footer h3 { 
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.footer_container {
+    height: 235px;
+    padding-top: 84px;
+    background-color: #EEE;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+footer.browse_categories h3, footer.browse_categories p {
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer.browse_categories h3 {
+    font-size: 20px;
+}
+
+footer.browse_categories p {
+    font-size: 10px;
+    padding: 80px 0 35px;
+}
+
+footer.browse_categories a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer.browse_categories img {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px -1px 0;
+}
+
+
+
+
+
+
